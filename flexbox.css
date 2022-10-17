@@ -1,10 +1,11 @@
-html{
-    height: 100px;
-}
+
 .padre-flex{
-    display: flex;
     border: 2px solid black;
-    padding: 5px;
+    height: 600px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     flex-wrap: wrap;
  
 }
@@ -15,7 +16,8 @@ html{
 
 }
 .hijo{
-    border: 1px solid;
+    border: 1px solid red;
+    background-color: aqua;
     padding: 50px;
 
 }

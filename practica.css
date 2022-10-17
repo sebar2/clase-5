@@ -1,0 +1,34 @@
+body{
+    border: 3px solid red;
+    display: flex;flex-direction: column;
+}
+
+header{
+  height: 25px;
+    background-color: aqua;
+}
+
+nav{
+    width: 25%;
+    background-color: yellow;
+}
+
+article{
+    width: 50%;
+    background-color: blue;
+}
+
+aside{
+    width: 25%;
+    background-color: red;
+}
+
+footer{
+    background-color: brown;
+    height: 25px;
+}
+.main{
+    display: flex;
+    justify-content:center ;
+    height: 150px;
+}
